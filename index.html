@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Medicine Safety Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🏥 Smart Medicine Safety Network</h1>
+    <p>AI Powered • Offline • Community Protected</p>
+</header>
+
+<section class="container">
+
+    <div class="card">
+        <h2>📷 Scan Medicine</h2>
+        <button onclick="scanMedicine()">Scan Now</button>
+        <p id="scanResult"></p>
+    </div>
+
+    <div class="card">
+        <h2>🔊 Voice Guidance</h2>
+        <button onclick="giveInstructions()">Hear Instructions</button>
+        <p id="instruction"></p>
+    </div>
+
+    <div class="card">
+        <h2>💬 Health Check</h2>
+        <button onclick="takenDose()">Taken Today?</button>
+        <button onclick="reportSideEffect()">Report Side Effect</button>
+        <p id="healthResponse"></p>
+    </div>
+
+    <div class="card emergency">
+        <h2>🚨 Emergency Help</h2>
+        <button onclick="emergencyAlert()">Call Doctor</button>
+        <p id="emergencyMsg"></p>
+    </div>
+
+</section>
+
+<!-- Partners Section -->
+<section class="partners">
+    <h2>🤝 Our Trusted Partners</h2>
+
+    <div class="partner-grid">
+
+        <div class="partner-card">
+            <img src="images/pharmacy.png">
+            <p>Local Pharmacies</p>
+        </div>
+
+        <div class="partner-card">
+            <img src="images/authorities.png">
+            <p>Health Authorities</p>
+        </div>
+
+        <div class="partner-card">
+            <img src="images/clinic.png">
+            <p>Rural Clinics</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Smart Medicine Safety | Offline AI Enabled</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
